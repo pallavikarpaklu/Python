@@ -1,8 +1,22 @@
 import os
+import sys
 
-def list_processes():
-    processes = os.popen(' ps aux | sort -k3 -r | head -n 100').read()
+limit = 10
+
+def list_processes(limit):
+    list_cmd = "ps aux | sort -k3 -r | head -n " + limit
+    processes = os.popen(list_cmd).read()
     print(processes)
 
 if __name__ == '__main__':
-    list_processes()
+    #First argument is filename
+    #Second and more argument is variables to function
+
+    if len(sys.argv) == 1:
+        list_processes(str(limit)) # Passing default value
+    elif len(sys.argv) == 2:
+       limit = sys.argv[1]
+       list_processes(limit) #Passing prompt value
+    else:
+        print("Invalid arguments. Instead run as 'python3 ListCPUProcess.py <number>' ")
+        exit()
