@@ -1,4 +1,14 @@
-USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
-_windowserver      111   6.0  0.6 412647232 103648   ??  Ss   24Aug25 352:49.41 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
-pallavikarpaklu    279   3.9  0.3 409992288  55568   ??  S    24Aug25  13:31.46 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
-pallavikarpaklu    702   2.8  1.3 410488064 210304   ??  Ss   24Aug25 186:15.29 /System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine
+root,1,49.4
+pallavikarpaklu,30696,17.9
+pallavikarpaklu,98961,15.2
+pallavikarpaklu,279,7.8
+_windowserver,111,6.7
+pallavikarpaklu,31006,5.9
+root,355,3.7
+pallavikarpaklu,702,1.8
+pallavikarpaklu,33680,1.6
+pallavikarpaklu,240,1.4
+_driverkit,544,1.3
+pallavikarpaklu,16505,1.2
+pallavikarpaklu,551,1.0
+pallavikarpaklu,609,0.5
